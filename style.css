@@ -118,7 +118,7 @@ picture, svg {
     :root {
       --header-margin: 88.46px;
       --nav-margin: 66.32px;
-      --intro-margin-top: 293.92px;
+      --intro-margin-top: 100px;
       --name-margin-top: 59.69px;
       --about-margin-top:57.59px;
 
@@ -265,7 +265,7 @@ background-clip: text;
 margin-top: var(--name-margin-top);
  }
 
- #hi {
+#hi {
   margin-top: var(--intro-margin-top);
  }
 
