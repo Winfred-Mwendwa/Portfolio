@@ -85,7 +85,7 @@ picture, svg {
   --font-size-300: 1.125rem;/*18px*/
   --font-size-400: 1.5rem; /*24px*/
   --font-size-500: 3.125rem; /*50px*/
-  --font-size-600: 5.5rem;/*96px*/
+  --font-size-600: 4.5rem;/*96px*/
 
 /*font-sizes for large sceens*/
   @media (min-width:50em) {
@@ -206,7 +206,7 @@ picture, svg {
 
 .container {
   --max-width: 1080px;
-  --padding:2px;
+  --padding:1rem;
 
   width: min(var(--max-width), 100% - (var(--padding) * 2)); /*min function chooses between the two and adds the padding on both edges of the screen*/
   margin-inline: auto; /*left and right*/
