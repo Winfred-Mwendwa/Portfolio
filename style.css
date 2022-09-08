@@ -111,7 +111,7 @@ picture, svg {
   --header-margin: 40px;
   --nav-margin: 30px;
   --intro-margin-top:16px;
-  --name-margin-top: 18px;
+  --name-margin-top: 20px;
   --about-margin-top:24px;
 
   @media (min-width: 50em) {
@@ -274,6 +274,7 @@ margin-top: var(--name-margin-top);
 }
 #welcome-section {
   height:90vh;
+
 }
 #about-me {
   padding-top: var(--name-margin-top);
@@ -307,7 +308,7 @@ a {
 .project-tile {
   
   display: inline-block;
-  margin: 2rem;
+  margin: 1rem;
         
 }
  h5 {
@@ -322,6 +323,7 @@ h6 {
 
 #contact {
   height: 90vh;
+  margin: 0 auto;
   
 }
 
@@ -332,7 +334,7 @@ h6 {
 
 .build {
   text-align: center;
-  padding: 10px;
+  padding-bottom: 5px;
 }
 
 
