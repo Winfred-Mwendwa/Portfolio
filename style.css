@@ -330,13 +330,14 @@ h6 {
 
 .social-icons {
   text-align: center;
-  padding: 2px; 
+  padding: 2px 2px 0 0; 
 }
 
 .build {
   text-align: center;
   padding-bottom: 5px;
 }
+
 
 
 
